@@ -1,2 +1,1 @@
-# redux-tutorial
-Redux tutorial
+# Redux tutorial
