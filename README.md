@@ -1,8 +1,8 @@
 # Redux Tutorial
 1. [Functional Programming](#functional-programming)
-   1. [Higher-order Function](#higher-order-function)
-   2. [Function Composition](#function-composition)
-   3. [Composition and Piping](#composition-and-piping)
+   - [Higher-order Function](#higher-order-function)
+   - [Function Composition](#function-composition)
+   - [Composition and Piping](#composition-and-piping)
 
 ## Functional Programming
 ### Higher-order function
