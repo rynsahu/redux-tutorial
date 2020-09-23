@@ -39,7 +39,7 @@ In the function composition section, we write a program to wrap the input inside
 
 `const output = wrapInDiv(toLowerCase(trim(input)));`
 
-We can simplify the code by using lodash compose function.
+We can simplify the code by using [lodash](https://lodash.com/) compose function.
 
 ###### Example:
 ```
