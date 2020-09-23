@@ -1,5 +1,9 @@
 # Redux Tutorial
 1. [Functional Programming](#functional-programming)
+   1. [Higher-order Function](#higher-order-function)
+   2. [Function Composition](#function-composition)
+   3. [Composition and Piping](#composition-and-piping)
+
 ## Functional Programming
 ### Higher-order function
 A higher-order function is a function that takes a function as an argument or returns a function or both.
