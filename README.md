@@ -3,7 +3,7 @@
 A higher-order function is a function that takes a function as an argument or returns a function or both.
 
 ###### Example:
-```
+```javaScript
 function greeting(fun) {
  console.log(fun());
 }
@@ -22,7 +22,7 @@ Divide a program into small-small functions is called function composition.
 
 ###### Example:
 Programm to wrap the input inside the div tag.
-```
+```javaScript
 const input = " JavaScript ";
  
 const trim = str => str.trim();
@@ -42,7 +42,7 @@ In the function composition section, we write a program to wrap the input inside
 We can simplify the code by using [lodash](https://lodash.com/) compose function.
 
 ###### Example:
-```
+```javaScript
 const { compose } = require("lodash/fp");
  
 const input = " JavaScript ";
@@ -66,7 +66,7 @@ Now we simplify the function calls but still, we need to read the code from righ
 `const transform = pipe(wrapInDiv, toLowerCase, trim);`
 
 ###### Example:
-```
+```javaScript
 const { pipe } = require("lodash/fp");
  
 const input = " JavaScript ";
