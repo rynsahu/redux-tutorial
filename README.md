@@ -74,7 +74,7 @@ const transform = compose(wrapInDiv, toLowerCase, trim);
 Now we simplify the function calls but still, we need to read the code from right to left. To simplify the code little bit more we can use the lodash pipe function.
 
 ```javaScript 
-const transform = pipe(wrapInDiv, toLowerCase, trim);
+const transform = pipe(trim, toLowerCase, wrapInDiv);
 ```
 
 ###### Example:
@@ -87,7 +87,7 @@ const trim = str => str.trim();
 const wrapInDiv = str => `<div>${str}</div>`;
 const toLowerCase = str => str.toLowerCase();
  
-const transform = pipe(wrapInDiv, toLowerCase, trim);
+const transform = pipe(trim, toLowerCase, wrapInDiv);
 const output = transform(input);
  
 console.log(output);
